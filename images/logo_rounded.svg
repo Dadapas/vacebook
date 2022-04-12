@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 40 40"
+   style="enable-background:new 0 0 40 40;"
+   xml:space="preserve"
+   sodipodi:docname="logo_v.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs16" /><sodipodi:namedview
+   id="namedview14"
+   pagecolor="#ffffff"
+   bordercolor="#111111"
+   borderopacity="1"
+   inkscape:pageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   showgrid="false"
+   showguides="true"
+   inkscape:guide-bbox="true"
+   inkscape:zoom="9.1923882"
+   inkscape:cx="34.104304"
+   inkscape:cy="19.744597"
+   inkscape:window-width="1366"
+   inkscape:window-height="691"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"><sodipodi:guide
+     position="19.538462,28"
+     orientation="1,0"
+     id="guide12998" /><sodipodi:guide
+     position="12.307692,20"
+     orientation="0,-1"
+     id="guide13000" /></sodipodi:namedview>
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="-277.375"
+   y1="406.6018"
+   x2="-277.375"
+   y2="407.6908"
+   gradientTransform="matrix(40,0,0,-39.7778,11114.899,16212.28)">
+	<stop
+   offset="0"
+   style="stop-color:#0062E0"
+   id="stop4" />
+	<stop
+   offset="1"
+   style="stop-color:#19AFFF"
+   id="stop6" />
+</linearGradient>
+<path
+   class="st0"
+   d="m 16.59794,39.745824 c -9.5000002,-1.7 -16.70000017,-9.9 -16.70000017,-19.8 0,-10.9999997 8.99999997,-19.99999974 20.00000017,-19.99999974 11,0 20,9.00000004 20,19.99999974 0,9.9 -7.2,18.1 -16.7,19.8 l -1.845655,0.121123 -3.201744,0.03354 z"
+   id="path9"
+   style="fill:url(#SVGID_1_)"
+   sodipodi:nodetypes="cssscccc" />
+
+<g
+   aria-label="V"
+   id="text5484"
+   style="font-size:40px;line-height:1.25;fill:#ffffff" /><path
+   id="rect12894"
+   style="fill:#ffffff;fill-rule:evenodd"
+   d="M 12.580078 7.8964844 L 9.5996094 8.9511719 L 16.169922 27.535156 L 14.587891 27.535156 L 14.587891 33.138672 L 24.707031 33.138672 L 24.707031 27.535156 L 22.908203 27.535156 L 29.478516 8.9511719 L 26.498047 7.8964844 L 19.986328 26.314453 L 18.789062 12.654297 L 18.226562 13.455078 L 19.332031 26.046875 L 16.640625 9.6464844 L 15.400391 10.591797 L 17.015625 20.439453 L 12.580078 7.8964844 z " /></svg>
