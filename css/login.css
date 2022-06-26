@@ -1,3 +1,91 @@
-/**
- * Login css
-*/
+.logo{
+    width: 300px;
+    height: 106px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.left-element h1 {
+    font-family: 'Open Sans', sans-serif;
+    /* margin-left: 30px; */
+}
+
+.container {
+    background-color: var(--gray-color, gray);
+    padding-top: 106px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button[type=submit] {
+    
+    font-size: var(--login-input-size);
+}
+
+.forget-pass {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.forget-pass a {
+    color: var(--primary-bleue);
+}
+.signin-link {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.footer-links {
+    margin:auto;
+    width: 1115px;
+    background-color: var(--white, #fff);
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.footer-links .ul-unstyled > li {
+    text-decoration: none;
+    display: inline;
+}
+
+.footer-links .ul-unstyled > li > a {
+    color: var(--footer-links-color);
+    text-decoration: none;
+    /*padding: 0 5px;*/
+}
+
+.footer-links .ul-unstyled > li > a:hover {
+    text-decoration: underline;
+}
+
+.footer-links .ul-unstyled > .active > a {
+    color: var(--footer-links-color-active);
+    font-weight: bold;
+}
+
+.footer-links .usefull-links .ul-unstyled > li > a {
+    /*margin: 0 7px;*/
+}
+
+.footer-links .copyright p {
+    padding-top: 20px;
+    color: var(--footer-links-color);
+    padding-bottom: 30px;
+}
+
+.signin-btn {
+    padding: 10px 40px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 370px;
+}

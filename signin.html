@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +10,223 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/login.css">
-    
+    <style>
+        .with-width {
+            width: 500px;
+        }
+        
+        .split-two {
+            display: flex;
+            justify-content:space-between;
+            gap: 30px;
+        }
+        .fb-form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+        .dob-wrapper {
+            display: flex;
+            gap: 15px;
+        }
+        .dob-wrapper div {
+            width: 100%;
+        }
+        .dob-wrapper select {
+            padding: 10px 15px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: white;
+            outline: 2px solid var(--gray-color);
+            border: none;
+        }
+
+        .genre-wrapper {
+            display: flex;
+            gap: 15px;
+        }
+        .genre-wrapper div {
+            width: 100%;
+            border: 2px solid var(--gray-color);
+            display: flex;
+            border-radius: var(--border-radius);
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .text-with {
+            font-size: var(--text-gray, 12px);
+            color: var(--footer-link-active);
+        }
+    </style>
     <link rel="shortcut icon" href="/images/logo_rounded.svg" type="image/x-icon">
 </head>
 <body>
-    
+    <div id="globalContainer">
+        <div class="container">
+            <div class="box-element with-width">
+                <h1>S'inscrire</h1>
+                <p>C'est facile et rapide</p>
+                <div class="divider"></div>
+
+                <div class="form-container">
+                    <form class="fb-form" action="" method="post">
+                        <div class="form-group split-two">
+                            <input placeholder="Prénom" type="text" name="username" id="">
+                            <input placeholder="Nom de famille" type="text" name="nom" id="nom" class="nom">
+                        </div>
+                        <div class="form-group">
+                            <input placeholder="Numero de mobile ou email" type="text" name="emailormobile" >
+                        </div>
+                        <div class="form-group">
+                            <input placeholder="Nouveu mot de pass" type="password" name="password" >
+                        </div>
+                        <div class="form-group with-label">
+                            <label class="text-with" for="dob">Date de naissance</label>
+                            <div class="dob-wrapper">
+                                <div class="dateofbirth">
+                                    <select name="dob" id="dob">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                        <option>31</option>
+                                    </select>
+                                </div>
+                                <div class="month">
+                                    <select name="month" id="month">
+                                        <option value="0">janv</option>
+                                        <option value="1">févr</option>
+                                        <option value="2">mars</option>
+                                        <option value="3">avr</option>
+                                        <option value="4">mai</option>
+                                        <option value="5">juin</option>
+                                        <option value="6">juil</option>
+                                        <option value="7">aout</option>
+                                        <option value="8">sept</option>
+                                        <option value="9">oct</option>
+                                        <option value="10">nov</option>
+                                        <option value="11">dec</option>
+                                    </select>
+                                </div>
+                                <div class="years">
+                                    <select name="year" id="years">
+                                        <option>1910</option>
+                                        <option>1911</option>
+                                        <option>1912</option>
+                                        <option>1913</option>
+                                        <option>1914</option>
+                                        <option>1915</option>
+                                        <option>1916</option>
+                                        <option>1917</option>
+                                        <option>1918</option>
+                                        <option>1919</option>
+                                        <option>1920</option>
+                                        <option>1921</option>
+                                        <option>1922</option>
+                                        <option>1923</option>
+                                        <option>1924</option>
+                                        <option>1925</option>
+                                        <option>1926</option>
+                                        <option>1927</option>
+                                        <option>1928</option>
+                                        <option>1929</option>
+                                        <option>1930</option>
+                                        <option>1931</option>
+                                        <option>1932</option>
+                                        <option>1933</option>
+                                        <option>1934</option>
+                                        <option>1935</option>
+                                        <option>1936</option>
+                                        <option>1937</option>
+                                        <option>1938</option>
+                                        <option>1939</option>
+                                        <option>1940</option>
+                                        <option>1941</option>
+                                        <option>1942</option>
+                                        <option>1943</option>
+                                        <option>1944</option>
+                                        <option>1945</option>
+                                        <option>1946</option>
+                                        <option>1947</option>
+                                        <option>1948</option>
+                                        <option>1949</option>
+                                        <option>1950</option>
+                                        <option>1951</option>
+                                        <option>1952</option>
+                                        <option>1953</option>
+                                        <option>1954</option>
+                                        <option>1955</option>
+                                        <option>1956</option>
+                                        <option>1957</option>
+                                        <option>1958</option>
+                                        <option>1959</option>
+                                        <option>1960</option>
+                                        <option>1961</option>
+                                        <option>1962</option>
+                                        <option>1963</option>
+                                        <option>1964</option>
+                                        <option>1965</option>
+                                        <option>1966</option>
+                                        <option>1967</option>
+                                        <option>1968</option>
+                                        <option>1969</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group with-label">
+                            <label class="text-with" for="genre">Genre</label>
+                            <div class="genre-wrapper">
+                                <div class="genre-femme">
+                                    <label for="femme" class="sous-label">Femme</label>
+                                    <input type="radio" name="genre" id="femme" value="f">
+                                </div>
+                                <div class="genre-homme">
+                                    <label for="homme" class="sous-label">Homme</label>
+                                    <input type="radio" name="genre" id="homme" value="f">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-politics">
+                            <p class="text-with">En appuyant sur S'inscrire, vous acceptez nos <a href="#">Conditions générales</a>, notre
+                                <a href="#">politiques d'utilisations des données</a> et notre <a href="#">politiques d'utilisations des cookies</a>.
+                                vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tous moment vous désabonner.
+                            </p>
+                        </div>
+                        <div class="form-group center-element" style="text-align: center">
+                            <button type="submit" class="green-btn default-btn display-block margin-auto signin-btn" name="sub">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
